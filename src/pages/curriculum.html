@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" class="">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#2c4960" />
+    <title>Aaron Gonzalez - Curriculum</title>
+    <script defer src="../js/script.js"></script>
+    <!-- Style -->
+    <link rel="stylesheet" href="../css/estilos.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <!-- Icons -->
+    <!-- Metatags -->
+    <meta name="description" content="Curriculum">
+</head>
+
+<body class="font-secondary min-h-[100vh] bg-gradient-to-tl from-[#131f29] from-30% via-[#1b3041] via-60% to-[#0d131a] to-80% dark:from-[#2c4960] dark:via-[#42759e] dark:to-[#1b2836]">
+    
+    <div class="fixed block right-[2.5vw] bottom-1/2 z-50">
+        <input type="checkbox" name="dark_mode" id="dark_mode" class="hidden peer">
+        <label for="dark_mode" class="flex z-50 items-center peer relative justify-center w-12 h-12 shadow-md duration-500  border-2 border-gray-700/50 rounded-full cursor-pointer bg-black/10 hover:bg-black/0 shadow-black/30 hover:shadow-orange-700/80"></label>
+       
+        <img src="../images/moon_sunny.svg" alt="" class="absolute w-8 h-8 duration-300 peer-checked:opacity-100 opacity-0 top-2 right-2">
+
+        <img src="../images/moon.svg" alt="" class="absolute w-8 h-8 duration-300 peer-checked:opacity-0 opacity-100 top-2 right-2">
+    </div>
+
+    <header>
+
+        <nav class="w-full h-16 flex items-center justify-between px-8 bg-black/10 shadow-lg shadow-black/30">
+
+            <a href="../index.html" class="w-max">
+                <div class="w-28 h-6 bg-contain bg-center bg-no-repeat bg-logo-1 hover:bg-logo-2">
+                </div>
+            </a>
+
+            <input type="checkbox" id="menu" class="peer hidden">
+            <label for="menu"
+                class="w-6 h-5 bg-cover bg-center bg-open-menu peer-checked:bg-close-menu cursor-pointer transition-all z-50 md:hidden"></label>
+
+            <div
+                class="fixed inset-0 backdrop-blur-sm md:backdrop-blur-none translate-x-full peer-checked:translate-x-0 transition-transform md:transition-none md:static md:translate-x-0 z-40 md:overflow-hidden">
+                <ul
+                    class="absolute inset-x-0 top-24 p-12 m-2 w-[90%] text-sm mx-auto rounded-md h-[80%] text-center grid gap-8 font-bold bg-gray-300/80 text-[#2c4960] md:text-gray-300/80 md:w-max md:bg-transparent md:p-0 md:grid-flow-col md:static z-40">
+
+                   <li
+                        class="my-auto">
+                        <a href="../index.html" class="inline-block w-full h-full transition-all border-2 border-gray-700/50 bg-gray-300/80 md:bg-transparent shadow-md shadow-transparent hover:shadow-orange-600/80 rounded-full p-2">Inicio</a>
+                    </li>
+
+                </ul>
+            </div>
+
+        </nav>
+
+        <h1 class="text-4xl text-gray-300/80 text-center py-24">Curriculum</h1>
+    </header>
+
+    <main class="w-full h-full">
+        <iframe src="../downloads/curriculum.pdf" frameborder="0" width="70%" height="100%" class="h-[1200px] mx-auto my-24"></iframe>
+    </main>
+
+    <footer class="lg:grid lg:grid-rows-1 lg:grid-flow-col bg-black/10 shadow-lg shadow-black/30 px-8">
+
+        <div class="grid grid-cols-2 lg:row-end-6 my-auto p-10">
+
+            <a href="../index.html" class="w-max justify-self-end pr-8 my-auto md:my-0">
+                <div class="w-28 h-6 bg-contain bg-center bg-no-repeat bg-logo-1 hover:bg-logo-2">
+                </div>
+            </a>
+
+            <p class="text-gray-300/80 my-auto text-xs md:text-sm">Copyright © 2024, All Rights Reserved</p>
+        </div>
+
+    </footer>
+
+</body>
