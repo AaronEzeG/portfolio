@@ -32,7 +32,6 @@ module.exports = {
         "html-1": "url('../images/HTML.svg')",
         "css-1": "url('../images/CSS.svg')",
         "js-1": "url('../images/JS.svg')",
-        "typescript-1": "url('../images/TypeScript.svg')",
         "react-1": "url('../images/React.svg')",
         "nodejs-1": "url('../images/Node.js.svg')",
         "jquery-1": "url('../images/Jquery.svg')",
@@ -53,7 +52,8 @@ module.exports = {
         "net-1": "url('../images/Net.svg')",
         "netcore-1": "url('../images/NetCore.svg')",
         "csharp-1": "url('../images/CSharp.svg')",
-        "blazor-1": "url('../images/Blazor.svg')"
+        "blazor-1": "url('../images/Blazor.svg')",
+        "ts-1": "url('../images/TS.svg')"
       },
       keyframes: {
         bouncex: {
